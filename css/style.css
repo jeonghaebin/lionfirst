@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(149, 221, 255);
+    height: 500px;
 }
 
 *{
@@ -50,7 +51,10 @@ ul.nav-btn>li {
 
 .container{
    width:1000px;
+   height: auto;
+   min-height: 100%;
    margin: 0 auto; 
+   /* padding-bottom: 50px; */
   
 }
 
@@ -122,6 +126,9 @@ a{
     height: 50px;
     color: white;
     font-size: 9px;
+    position: relative;
+    bottom: 0;
+    
 }
 
 .inner{
